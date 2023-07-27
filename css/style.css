@@ -6,12 +6,10 @@ body{
     background-image: url(/imagenes/fondo.jpg);
     background-position: center;
     background-size: cover;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 25px;
+    margin: auto;
     font-family: 'Oxanium', cursive;
     line-height: 1.5rem;
-    color:rgb(255, 173, 97)
+    color:rgb(241, 181, 61)
 }
 
 strong{
@@ -39,13 +37,13 @@ h2{
 
 .container-border{
     flex: 30%;
-    border-left: solid 15px #c2752d;
+    border-left: solid 15px #f3943a;
     margin-top: 1rem;
     margin: 1rem;
 }
 
 .column-subcontainer{
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgba(47, 56, 63, 0.8);
     margin-left: 0.2rem;
     border-radius: 0.2rem;
@@ -54,6 +52,10 @@ h2{
     height: 89%;
 }
 
+.datospersonales{
+    padding-left: 1rem;
+    border-left: solid 2px #cabbb6;
+}
 
 .linecode {
     margin-left: 3rem;
