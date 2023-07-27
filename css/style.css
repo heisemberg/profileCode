@@ -4,7 +4,7 @@
 body{
     display: flex;
     background-color: rgba(255, 255, 255, 0.5);
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(/imagenes/fondo.jpg);
     background-position: center;
     background-size: cover;
     margin: auto;
@@ -15,15 +15,21 @@ body{
 }
 
 strong{
-    color:#80dbff
+    color:#5fd2ff
 }
 h1{
     color: rgb(96, 219, 158);
+    padding: 0.5rem;
+    border: solid 1px #f3943a; 
+    border-radius: 0.3rem; 
 }
 
 h2{
-    color: rgb(238, 111, 227);
-    padding-left: 1rem;
+    color: #ee5485;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: solid 1px #16ba93; 
+    border-radius: 0.3rem; 
 }
 
 #perfil{
@@ -58,14 +64,24 @@ h2{
 
 .datospersonales{
     padding-left: 1rem;
-    border-left: solid 2px #cabbb6;
+    border-left: solid 2px #16ba93;
+    color:#00ddff
 }
 
+.datospersonales p > strong{
+    color:#ee5485;
+}
 .linecode {
     margin-left: 3rem;
     padding-left: 1rem;
-    border-left: solid 1px #cabbb6;
-    
+    border-left: solid 2px #54d2ee;  
+}
+
+.bordercode {  
+    margin-top: 1rem;
+    padding: 0.2rem;
+    border: solid 1px #7d7d7d; 
+    border-radius: 0.3rem; 
 }
 
 .photo-perfil{
@@ -79,7 +95,7 @@ h2{
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: solid 3px #9dc3f5;
+    border: solid 3px #5fd2ff;
     border-radius: 50%;
     box-shadow: 10px 10px 52px -18px rgba(0,0,0,0.49);
 }
