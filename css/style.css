@@ -142,23 +142,23 @@ progress {
 }
 
 .progress-elemento-python .progress-container::before {
-  animation: progress-python 3s ease-in forwards;
+  animation: progress-python 2s ease-in forwards;
 }
 
 .progress-elemento-html .progress-container::before {
-    animation: progress-html 3s ease-in forwards;
+    animation: progress-html 2s ease-in forwards;
 }
 
 .progress-elemento-css .progress-container::before {
-    animation: progress-css 3s ease-in forwards;
+    animation: progress-css 2s ease-in forwards;
 }
   
 .progress-elemento-wordpress .progress-container::before {
-    animation: progress-wordpress 3s ease-in forwards;
+    animation: progress-wordpress 2s ease-in forwards;
 }
 
 .progress-elemento-idioma .progress-container::before {
-  animation: progress-idioma 3s ease-in forwards;
+  animation: progress-idioma 2s ease-in forwards;
 }
 
 .progress-label {
@@ -180,23 +180,23 @@ progress {
 }
 
 .progress-elemento-python .progress-label::after {
-  animation: progress-text-python 3s ease-in forwards;
+  animation: progress-text-python 2s ease-in forwards;
 }
 
 .progress-elemento-html .progress-label::after {
-    animation: progress-text-html 3s ease-in forwards;
+    animation: progress-text-html 2s ease-in forwards;
 }
 
 .progress-elemento-css .progress-label::after {
-    animation: progress-text-css 3s ease-in forwards;
+    animation: progress-text-css 2s ease-in forwards;
 }
 
 .progress-elemento-wordpress .progress-label::after {
-    animation: progress-text-wordpress 3s ease-in forwards;
+    animation: progress-text-wordpress 2s ease-in forwards;
 }
 
 .progress-elemento-idioma .progress-label::after {
-  animation: progress-text-idioma 3s ease-in forwards;
+  animation: progress-text-idioma 2s ease-in forwards;
 }
 
 @keyframes progress-python {
