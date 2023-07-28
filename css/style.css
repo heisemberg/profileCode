@@ -33,7 +33,19 @@ h2{
     border-radius: 0.3rem; 
 }
 
+h3{
+    color: rgb(96, 219, 158);
+    padding: 0.5rem;
+    border-bottom: solid 1px #7d7d7d;  
+    margin:0;
+}
+
 #perfil{
+    color:#fff;
+    text-align: justify;
+}
+
+#proyecto{
     color:#fff;
     text-align: justify;
 }
@@ -61,7 +73,7 @@ h2{
     border-bottom-right-radius: 0.4rem;
     box-shadow: 10px 10px 50px -18px rgba(0,0,0,0.8);
     backdrop-filter: blur(5px);
-    height: 94%;
+    height: 98%;
 }
 
 .datospersonales{
@@ -74,7 +86,8 @@ h2{
     color:#ee5485;
 }
 .linecode {
-    margin-left: 3rem;
+    margin:2rem;
+    margin-left: 2rem;
     padding-left: 1rem;
     border-left: solid 2px #54d2ee;  
 }
@@ -97,9 +110,8 @@ h2{
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: solid 3px #5fd2ff;
+    border: solid 3px #f3943a;
     border-radius: 50%;
-    box-shadow: 10px 10px 52px -18px rgba(0,0,0,0.49);
 }
 
 progress {
@@ -129,12 +141,24 @@ progress {
   background: #f3943a;
 }
 
-.progress-elemento-skill .progress-container::before {
-  animation: progress-skill 1s ease-in forwards;
+.progress-elemento-python .progress-container::before {
+  animation: progress-python 3s ease-in forwards;
+}
+
+.progress-elemento-html .progress-container::before {
+    animation: progress-html 3s ease-in forwards;
+}
+
+.progress-elemento-css .progress-container::before {
+    animation: progress-css 3s ease-in forwards;
+}
+  
+.progress-elemento-wordpress .progress-container::before {
+    animation: progress-wordpress 3s ease-in forwards;
 }
 
 .progress-elemento-idioma .progress-container::before {
-  animation: progress-idioma 1s ease-in forwards;
+  animation: progress-idioma 3s ease-in forwards;
 }
 
 .progress-label {
@@ -155,33 +179,80 @@ progress {
   right: 0;
 }
 
-.progress-elemento-skill .progress-label::after {
-  animation: progress-text-skill 1s ease-in forwards;
+.progress-elemento-python .progress-label::after {
+  animation: progress-text-python 3s ease-in forwards;
+}
+
+.progress-elemento-html .progress-label::after {
+    animation: progress-text-html 3s ease-in forwards;
+}
+
+.progress-elemento-css .progress-label::after {
+    animation: progress-text-css 3s ease-in forwards;
+}
+
+.progress-elemento-wordpress .progress-label::after {
+    animation: progress-text-wordpress 3s ease-in forwards;
 }
 
 .progress-elemento-idioma .progress-label::after {
-  animation: progress-text-idioma 1s ease-in forwards;
+  animation: progress-text-idioma 3s ease-in forwards;
 }
 
-@keyframes progress-skill {
+@keyframes progress-python {
   to {
-    width: 95%;
+    width: 80%;
+  }
+}
+
+@keyframes progress-html {
+    to {
+      width: 75%;
+    }
+}
+
+@keyframes progress-css {
+    to {
+      width: 70%;
+    }
+}
+
+@keyframes progress-wordpress {
+  to {
+    width: 90%;
   }
 }
 
 @keyframes progress-idioma {
-  to {
-    width: 60%;
+    to {
+      width: 60%;
+    }
   }
+
+
+@keyframes progress-text-python {
+    to {
+      --num: 80;
+    }
 }
 
-
-@keyframes progress-text-skill {
-  to {
-    --num: 95;
-  }
+@keyframes progress-text-html {
+    to {
+      --num: 75;
+    }
 }
 
+@keyframes progress-text-css {
+    to {
+      --num: 70;
+    }
+}
+
+@keyframes progress-text-wordpress {
+    to {
+      --num: 90;
+    }
+}
 @keyframes progress-text-idioma {
   to {
     --num: 60;
